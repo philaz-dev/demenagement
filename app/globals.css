@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --logilift-orange: #f58220;
+  --logilift-blue: #1c75bc;
+  --logilift-cyan: #29abe2;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: #1f2937;
+  background: #f8fafc;
+}
