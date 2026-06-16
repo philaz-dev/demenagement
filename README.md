@@ -54,10 +54,9 @@ FROM_EMAIL=devis@logilift.fr   # adresse vérifiée sur Resend
 
 ## Logo
 
-Le logo affiché (`public/logilift-logo.svg`) est une reproduction vectorielle
-dans la charte. **Pour utiliser le logo officiel**, déposez votre fichier sous
-`public/logilift-logo.png` puis remplacez la source de l'image dans
-`components/Header.tsx` (`src="/logilift-logo.png"`).
+Le logo officiel Logilift est dans `public/Logo_Logilift.png` et affiché dans
+l'en-tête (`components/Header.tsx`). Pour le changer, remplacez ce fichier (ou
+ajoutez-en un nouveau et mettez à jour la prop `src` du composant `Image`).
 
 ## Déploiement (Vercel)
 

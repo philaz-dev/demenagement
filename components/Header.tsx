@@ -7,12 +7,12 @@ export default function Header() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logilift-logo.svg"
-            alt="Logilift"
-            width={208}
-            height={80}
+            src="/Logo_Logilift.png"
+            alt="Logilift — Le transit qui fait avancer vos affaires"
+            width={210}
+            height={140}
             priority
-            className="h-14 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
         <Link
